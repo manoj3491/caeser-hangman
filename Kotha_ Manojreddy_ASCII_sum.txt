@@ -1,0 +1,33 @@
+####code 
+string = input("enter your name: ")
+list=[ord(ch) for ch in string]
+print("ASCII value according to letter",list)
+sum=0
+for i in range(0, len(list)):
+    sum = sum + list[i]
+    
+print("sum of ASCII value of( "+string,"):",sum)
+
+########
+
+
+
+
+
+
+
+
+
+
+1)output
+enter your name: ManojReddy Kotha
+ASCII value according to letter [77, 97, 110, 111, 106, 82, 101, 100, 100, 121, 32, 75, 111, 116, 104, 97]
+sum of ASCII value of  ( ManojReddy Kotha ): 1540
+
+2)
+enter your name: manojreddy kotha
+ASCII value according to letter [109, 97, 110, 111, 106, 114, 101, 100, 100, 121, 32, 107, 111, 116, 104, 97]
+sum of ASCII value of  ( manojreddy kotha ) : 1636
+
+sum of ASCII value of  ( ManojReddy Kotha  ) < sum of ASCII value of  ( manojreddy kotha )
+ 
